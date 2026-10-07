@@ -1,8 +1,7 @@
-<svg width="1087px" height="110px" xmlns="http://www.w3.org/2000/svg">
+<svg width="1087px" height="92px" xmlns="http://www.w3.org/2000/svg">
   <style>
     .fg { fill: #AAAAAA }
     .bg { fill: #000000 }
-    .fg-bright-green { fill: #55FF55 }
     .fg-bright-red { fill: #FF5555 }
     .container {
       padding: 0 10px;
@@ -19,15 +18,13 @@
   <rect width="100%" height="100%" y="0" rx="4.5" class="bg" />
 
   <text xml:space="preserve" class="container fg">
-    <tspan x="10px" y="28px"><tspan class="fg-bright-green bold">    Removing</tspan><tspan> semver from dependencies</tspan>
+    <tspan x="10px" y="28px"><tspan class="fg-bright-red bold">error</tspan><tspan>: the dependency `semver` could not be found in `dependencies`</tspan>
 </tspan>
-    <tspan x="10px" y="46px"><tspan class="fg-bright-red bold">error</tspan><tspan>: the dependency `semver` could not be found in `dependencies`</tspan>
+    <tspan x="10px" y="46px">
 </tspan>
-    <tspan x="10px" y="64px">
+    <tspan x="10px" y="64px"><tspan>help: pass `--build --target x86_64-unknown-freebsd` to remove `semver` from `target.x86_64-unknown-freebsd.build-dependencies`</tspan>
 </tspan>
-    <tspan x="10px" y="82px"><tspan>help: pass `--build --target x86_64-unknown-freebsd` to remove `semver` from `target.x86_64-unknown-freebsd.build-dependencies`</tspan>
-</tspan>
-    <tspan x="10px" y="100px">
+    <tspan x="10px" y="82px">
 </tspan>
   </text>
 
